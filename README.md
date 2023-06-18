@@ -61,6 +61,11 @@ Pour remplir cette dimension, on va fusionner les fichiers plats par des jointur
 ##### Requête dans Source OLE DB :
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/0b0c2fee-05e5-4547-8761-c7c9c63fbc79)
 
+
+## Analyse et Reporting (PowerBI)
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/48806562-8027-4ea7-bf5e-938efd68236f)
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/549ba2ea-f42c-4f59-b5fb-fe6be0b8fc77)
+
 ## Python : Visualisation et Analyse:
 On exporte la table de fait réalisé sous la format CSV afin d’effectuer une analyse descriptive et prédictive qui vise à explorer et comprendre l’ensemble de données, les raisons de désabonnement et réaliser un modèle prédictif d’attrition des clients.
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/bf5d2e3b-0e87-4eba-a094-0e7b66dbaae6)
@@ -81,8 +86,5 @@ En affichant le rapport de classification, on remarque que le modèle implément
 La prise de décision est un rôle clé dans le succès de toute entreprise, ces décisions affectent directement l'entreprise, et donc une mauvaise décision par une source mal informée conduit à des résultats désastreux. Les décisions sont prises au niveau individuel jusqu'au niveau organisationnel. Cette solution BI que nous avons mise en place améliorera sûrement la décisions prises par les dirigeants de la compagnie Telco. Les systèmes de BI permettront en effet tous les gestionnaires de la compagnie Telco avec suffisamment d'informations et les rendre capables de la prise de décision.
 
 
-## Analyse et Reporting:
-![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/48806562-8027-4ea7-bf5e-938efd68236f)
-![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/549ba2ea-f42c-4f59-b5fb-fe6be0b8fc77)
 
 
