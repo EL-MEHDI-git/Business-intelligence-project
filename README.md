@@ -19,3 +19,37 @@ Et aussi d’autres fichiers, un qui s’agit d’une calendrier de 2020 et l’
 - Telco_customer_churn_status.xlsx
 - DimDates.xlsx
 - Zipcode.xlsx
+
+
+## Indicateurs clé de performance – KPIs :
+#### Description des axes de l’analyse :
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/1cbd8bfa-2376-439b-93cb-1c02158575a9)
+
+#### Matrice dimensionnelle d'analyse des indicateurs:
+
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/ca4c9434-0859-4654-abbc-eadac285ac18)
+
+## Modélisation du datawarehouse :
+Dans cette partie du projet, nous mettrons en oeuvre l'entrepôt de données, en utilisant le schéma en étoile, qui est l'approche la plus utilisée pour développer des entrepôts de données, il se compose d'une table de faits faisant référence à un certain nombre de table de dimension.
+Notre entrepôt de données va contenir un table de fait ‘’Churn’’, et quatre dimensions :
+DimDates, DimCustomers, DimService et finalement DimLocalisation.
+Les attributs de chaque table sont représentés sur le schéma ci-dessous :
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/4071f52c-bdab-43dc-b9ec-f2df6b1a61ce)
+
+### ETL :
+Extract, Transform, Load est la procédure générale de copier des données d'un ou de plusieurs sources dans un système de destination qui représente les données différemment des source ou dans un contexte différent de la source. Dans ce projet, nous extrairons les données des fichiers plats ci-dessous, et chargez-les dans ‘’ChurnDW’’ Datawarehouse créé
+sur SQL Server Management Studio (SSMS), nous devons remplir les quatre dimensions ainsi que la table des faits, pour ce faire nous utiliserons SQL Server Data Tools (SSDT).
+#### • La dimension Client :
+Pour remplir cette dimension, on va fusionner les fichiers plats par des jointures et par la suite effectuer une conversion de données pour les rendre compatible avec ceux définies sur la base de données sur Management Studio.
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/dcea5908-b108-4a11-93b2-a8cf7b2a4cb2)
+#### • La dimension Date:
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/60983160-60ec-4897-afec-886409b943e4)
+
+#### • La dimension Localisation:
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/924c1212-f6bb-411e-adf5-5de9e2db06a5)
+
+## Analyse et Reporting:
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/48806562-8027-4ea7-bf5e-938efd68236f)
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/549ba2ea-f42c-4f59-b5fb-fe6be0b8fc77)
+
+
