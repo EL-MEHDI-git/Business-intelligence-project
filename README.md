@@ -1,5 +1,7 @@
 # BI Solution for Telecom Customer Churn
 
+### Technologies utilisées : SQL server management studio, SQL Server Integration Services, Microsoft Visual Studio, Power BI
+
 ### 1- Domaine :
 Télécommunication.
 ### 2- Contexte fonctionnel :
@@ -47,6 +49,32 @@ Pour remplir cette dimension, on va fusionner les fichiers plats par des jointur
 
 #### • La dimension Localisation:
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/924c1212-f6bb-411e-adf5-5de9e2db06a5)
+
+#### • La dimension Service:
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/725f2538-23fa-4959-b20c-5f4fe4b030b6)
+
+#### • Table de fait [ Churn ] :
+##### Requête dans Source OLE DB :
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/0b0c2fee-05e5-4547-8761-c7c9c63fbc79)
+
+## Python : Visualisation et Analyse:
+On exporte la table de fait réalisé sous la format CSV afin d’effectuer une analyse descriptive et prédictive qui vise à explorer et comprendre l’ensemble de données, les raisons de désabonnement et réaliser un modèle prédictif d’attrition des clients.
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/bf5d2e3b-0e87-4eba-a094-0e7b66dbaae6)
+
+#### • Analyse prédictive:
+Dans la dernière partie du projet, nous mettrons en oeuvre des solutions prédictives pour la compagnies Telco afin d'explorer les modèles en analysant les faits actuels et historiques et faire des prédictions sur la situation des futurs clients.
+Après le pré-traitement et la normalisation des données, on détermine la corrélation entre variables :
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/dabcf909-5a28-476a-b257-0ee6f012d995)
+
+On choisit les variables les plus corrélées avec la variable cible en utilisant le SelectKBest avec un test Chi-square.
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/1d05c76a-1dd7-4928-9d0c-e201b5d2a3f0)
+
+![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/eb0975a7-1950-488a-bcb5-ac9905fbca47)
+En affichant le rapport de classification, on remarque que le modèle implémenté effectue de bonne prédiction et avait de bonne score au niveau de tous les métriques d’évaluation.
+
+### Conclusion
+La prise de décision est un rôle clé dans le succès de toute entreprise, ces décisions affectent directement l'entreprise, et donc une mauvaise décision par une source mal informée conduit à des résultats désastreux. Les décisions sont prises au niveau individuel jusqu'au niveau organisationnel. Cette solution BI que nous avons mise en place améliorera sûrement la décisions prises par les dirigeants de la compagnie Telco. Les systèmes de BI permettront en effet tous les gestionnaires de la compagnie Telco avec suffisamment d'informations et les rendre capables de la prise de décision.
+
 
 ## Analyse et Reporting:
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/48806562-8027-4ea7-bf5e-938efd68236f)
