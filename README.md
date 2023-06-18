@@ -73,6 +73,7 @@ On exporte la table de fait réalisé sous la format CSV afin d’effectuer une 
 #### • Analyse prédictive:
 Dans la dernière partie du projet, nous mettrons en oeuvre des solutions prédictives pour la compagnies Telco afin d'explorer les modèles en analysant les faits actuels et historiques et faire des prédictions sur la situation des futurs clients.
 Après le pré-traitement et la normalisation des données, on détermine la corrélation entre variables :
+
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/dabcf909-5a28-476a-b257-0ee6f012d995)
 
 On choisit les variables les plus corrélées avec la variable cible en utilisant le SelectKBest avec un test Chi-square.
