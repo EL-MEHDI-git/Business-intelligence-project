@@ -1,6 +1,10 @@
 # BI Solution for Telecom Customer Churn
 
-### Technologies utilisées : SQL server management studio, SQL Server Integration Services, Microsoft Visual Studio, Power BI
+### Technologies utilisées : 
+- SQL server management studio
+- SQL Server Integration Services
+- Microsoft Visual Studio
+- Power BI
 
 ### 1- Domaine :
 Télécommunication.
@@ -70,6 +74,7 @@ On choisit les variables les plus corrélées avec la variable cible en utilisan
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/1d05c76a-1dd7-4928-9d0c-e201b5d2a3f0)
 
 ![image](https://github.com/EL-MEHDI-git/Business-intelligence-project-report/assets/66147690/eb0975a7-1950-488a-bcb5-ac9905fbca47)
+
 En affichant le rapport de classification, on remarque que le modèle implémenté effectue de bonne prédiction et avait de bonne score au niveau de tous les métriques d’évaluation.
 
 ### Conclusion
